@@ -18,8 +18,8 @@
     "files": {
         "place": [
             {
-                "src": "my-mod/*",
-                "dest": "plugins/my-mod/"
+                "src": "DropItemx100/*",
+                "dest": "plugins/DropItemx100/"
             }
         ]
     }
