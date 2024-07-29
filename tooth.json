@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/cngege/DropItemx100",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "info": {
         "name": "DropItemx100",
         "description": "百倍掉落物",
@@ -13,7 +13,7 @@
     },
     "asset_url": "https://github.com/cngege/DropItemx100/releases/download/v$(version)/DropItemx100-windows-x64.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "0.13.4"
+        "github.com/LiteLDev/LeviLamina": "0.13.x"
     },
     "files": {
         "place": [
