@@ -4,14 +4,18 @@
 
 #include "ll/api/mod/RegisterHelper.h"
 
+
 namespace my_plugin {
 
 static std::unique_ptr<MyMod> instance;
+
+
 
 MyMod& MyMod::getInstance() { return *instance; }
 
 bool MyMod::load() {
     getSelf().getLogger().info("Loading...");
+
     // Code for loading the plugin goes here.
     return true;
 }
