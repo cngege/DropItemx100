@@ -11,7 +11,7 @@
             "mod"
         ]
     },
-    "asset_url": "https://github.com/cngege/DropItemx100",
+    "asset_url": "https://github.com/cngege/DropItemx100/releases/download/v$(version)/DropItemx100.zip",
     "prerequisites": {
         "github.com/LiteLDev/LeviLamina": "0.13.4"
     },
