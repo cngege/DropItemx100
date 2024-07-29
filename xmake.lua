@@ -40,7 +40,7 @@ target("DropItemx100") -- Change this to your mod name.
         local major, minor, patch, suffix = tag:match("v(%d+)%.(%d+)%.(%d+)(.*)")
         if not major then
             print("Failed to parse version tag, using 0.0.0")
-            major, minor, patch = 0, 0, 1
+            major, minor, patch = 0, 0, 2
         end
         local mod_define = {
             modName = target:name(),
