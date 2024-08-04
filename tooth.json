@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/cngege/DropItemx100",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "info": {
         "name": "DropItemx100",
         "description": "百倍掉落物",

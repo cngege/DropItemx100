@@ -10,14 +10,13 @@ LL_AUTO_TYPE_INSTANCE_HOOK(
     Block,
     "?playerDestroy@Block@@QEBAXAEAVPlayer@@AEBVBlockPos@@@Z",
     void,
-    void* block,
     void* player,
     void* pos
 )
 {
     for (int i = 0; i < 99; i++) {
-        origin(block, player, pos);
+        origin(player, pos);
     }
-    return origin(block,player,pos);
+    return origin(player,pos);
 }
 }
